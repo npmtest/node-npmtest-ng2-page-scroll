@@ -1,0 +1,37 @@
+<svg height="542" width="720" xmlns="http://www.w3.org/2000/svg">
+<rect height="542" fill="#555" width="720"></rect>
+<text fill="#7f7" font-family="Courier New" font-size="12" xml:space="preserve">
+<tspan x="10" y="26">  0.  2017-04-22 01:12:01 +0000   174302 bytes  .</tspan>
+<tspan x="10" y="42">  1.  2017-04-22 01:12:01 +0000     7290 bytes  CHANGELOG.md</tspan>
+<tspan x="10" y="58">  2.  2017-04-22 01:12:01 +0000     1075 bytes  LICENSE</tspan>
+<tspan x="10" y="74">  3.  2017-04-22 01:12:01 +0000    12758 bytes  README.md</tspan>
+<tspan x="10" y="90">  4.  2017-04-22 01:12:01 +0000    47438 bytes  bundles/ng2-page-scroll.umd.js</tspan>
+<tspan x="10" y="106">  5.  2017-04-22 01:12:01 +0000    15728 bytes  bundles/ng2-page-scroll.umd.min.js</tspan>
+<tspan x="10" y="122">  6.  2017-04-22 01:12:01 +0000      310 bytes  ng2-page-scroll.d.ts</tspan>
+<tspan x="10" y="138">  7.  2017-04-22 01:12:01 +0000      310 bytes  ng2-page-scroll.js</tspan>
+<tspan x="10" y="154">  8.  2017-04-22 01:12:01 +0000      695 bytes  ng2-page-scroll.metadata.json</tspan>
+<tspan x="10" y="170">  9.  2017-04-22 01:12:01 +0000     2308 bytes  ng2-page-scroll.ngsummary.json</tspan>
+<tspan x="10" y="186"> 10.  2017-04-22 01:12:01 +0000     2659 bytes  package.json</tspan>
+<tspan x="10" y="202"> 11.  2017-04-22 01:12:01 +0000     4151 bytes  src/ng2-page-scroll-config.d.ts</tspan>
+<tspan x="10" y="218"> 12.  2017-04-22 01:12:01 +0000     4163 bytes  src/ng2-page-scroll-config.js</tspan>
+<tspan x="10" y="234"> 13.  2017-04-22 01:12:01 +0000     1525 bytes  src/ng2-page-scroll-config.metadata.json</tspan>
+<tspan x="10" y="250"> 14.  2017-04-22 01:12:01 +0000     9664 bytes  src/ng2-page-scroll-instance.d.ts</tspan>
+<tspan x="10" y="266"> 15.  2017-04-22 01:12:01 +0000    21740 bytes  src/ng2-page-scroll-instance.js</tspan>
+<tspan x="10" y="282"> 16.  2017-04-22 01:12:01 +0000     8065 bytes  src/ng2-page-scroll-instance.metadata.json</tspan>
+<tspan x="10" y="298"> 17.  2017-04-22 01:12:01 +0000      476 bytes  src/ng2-page-scroll-util.service.d.ts</tspan>
+<tspan x="10" y="314"> 18.  2017-04-22 01:12:01 +0000     1733 bytes  src/ng2-page-scroll-util.service.js</tspan>
+<tspan x="10" y="330"> 19.  2017-04-22 01:12:01 +0000     1409 bytes  src/ng2-page-scroll-util.service.metadata.json</tspan>
+<tspan x="10" y="346"> 20.  2017-04-22 01:12:01 +0000     1028 bytes  src/ng2-page-scroll.directive.d.ts</tspan>
+<tspan x="10" y="362"> 21.  2017-04-22 01:12:01 +0000     6682 bytes  src/ng2-page-scroll.directive.js</tspan>
+<tspan x="10" y="378"> 22.  2017-04-22 01:12:01 +0000     5592 bytes  src/ng2-page-scroll.directive.metadata.json</tspan>
+<tspan x="10" y="394"> 23.  2017-04-22 01:12:01 +0000      141 bytes  src/ng2-page-scroll.module.d.ts</tspan>
+<tspan x="10" y="410"> 24.  2017-04-22 01:12:01 +0000     1485 bytes  src/ng2-page-scroll.module.js</tspan>
+<tspan x="10" y="426"> 25.  2017-04-22 01:12:01 +0000     1759 bytes  src/ng2-page-scroll.module.metadata.json</tspan>
+<tspan x="10" y="442"> 26.  2017-04-22 01:12:01 +0000      862 bytes  src/ng2-page-scroll.service.d.ts</tspan>
+<tspan x="10" y="458"> 27.  2017-04-22 01:12:01 +0000    11244 bytes  src/ng2-page-scroll.service.js</tspan>
+<tspan x="10" y="474"> 28.  2017-04-22 01:12:01 +0000      889 bytes  src/ng2-page-scroll.service.metadata.json</tspan>
+<tspan x="10" y="490"> 29.  2017-04-22 01:12:01 +0000      553 bytes  tsconfig-build.json</tspan>
+<tspan x="10" y="506"> 30.  2017-04-22 01:12:01 +0000      478 bytes  tsconfig.json</tspan>
+<tspan x="10" y="522"> 31.  2017-04-22 01:12:01 +0000       92 bytes  typings.json</tspan>
+</text>
+</svg>
