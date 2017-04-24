@@ -8,6 +8,6 @@
 <tspan x="10" y="90">├── UNMET PEER DEPENDENCY @angular/core@&gt;=2.4.0 &lt;5.0.0</tspan>
 <tspan x="10" y="106">├── UNMET PEER DEPENDENCY @angular/platform-browser@&gt;=2.4.0 &lt;5.0.0</tspan>
 <tspan x="10" y="122">├── UNMET PEER DEPENDENCY @angular/router@&gt;=3.2.0 &lt;5.0.0</tspan>
-<tspan x="10" y="138">└── ng2-page-scroll@4.0.0-beta.6</tspan>
+<tspan x="10" y="138">└── ng2-page-scroll@4.0.0-beta.7</tspan>
 </text>
 </svg>
