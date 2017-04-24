@@ -1,6 +1,6 @@
 # npmtest-ng2-page-scroll
 
-#### basic test coverage for  [ng2-page-scroll (v4.0.0-beta.6)](https://github.com/Nolanus/ng2-page-scroll#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-ng2-page-scroll.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-ng2-page-scroll) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-ng2-page-scroll.svg)](https://travis-ci.org/npmtest/node-npmtest-ng2-page-scroll)
+#### basic test coverage for  [ng2-page-scroll (v4.0.0-beta.7)](https://github.com/Nolanus/ng2-page-scroll#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-ng2-page-scroll.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-ng2-page-scroll) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-ng2-page-scroll.svg)](https://travis-ci.org/npmtest/node-npmtest-ng2-page-scroll)
 
 #### Animated scrolling functionality written in pure angular2
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-ng2-page-scroll/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-ng2-page-scroll/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-ng2-page-scroll/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-ng2-page-scroll/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-ng2-page-scroll/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-ng2-page-scroll/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-ng2-page-scroll/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-ng2-page-scroll/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-ng2-page-scroll/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-ng2-page-scroll/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-ng2-page-scroll/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-ng2-page-scroll/build/coverage.html/index.html)
 
@@ -36,7 +36,7 @@
 
 {
     "name": "ng2-page-scroll",
-    "version": "4.0.0-beta.6",
+    "version": "4.0.0-beta.7",
     "description": "Animated scrolling functionality written in pure angular2",
     "scripts": {
         "compile": "npm run lint:code && ngc -p tsconfig-build.json",
@@ -89,26 +89,26 @@
         "@angular/router": ">=3.2.0 <5.0.0"
     },
     "devDependencies": {
-        "@angular/common": "^2.4.0",
-        "@angular/compiler": "^2.4.0",
-        "@angular/compiler-cli": "^2.4.0",
-        "@angular/core": "^2.4.0",
-        "@angular/platform-browser": "^2.4.0",
-        "@angular/platform-server": "^2.4.0",
-        "@angular/router": "^3.2.1",
-        "@types/jasmine": "2.5.45",
-        "codelyzer": "^2.0.0",
+        "@angular/common": "^4.0.2",
+        "@angular/compiler": "^4.0.2",
+        "@angular/compiler-cli": "^4.0.2",
+        "@angular/core": "^4.0.2",
+        "@angular/platform-browser": "^4.0.2",
+        "@angular/platform-server": "^4.0.2",
+        "@angular/router": "^4.0.2",
+        "@types/jasmine": "^2.5.45",
+        "codelyzer": "~3.0.0",
         "jasmine-core": "~2.5.2",
-        "jasmine-spec-reporter": "~3.2.0",
+        "jasmine-spec-reporter": "~4.0.0",
         "protractor": "5.1.1",
         "rimraf": "^2.5.4",
         "rollup": "^0.41.4",
         "rollup-plugin-uglify": "^1.0.1",
         "rxjs": "^5.1.0",
-        "tslint": "^4.4.2",
+        "tslint": "^5.1.0",
         "typescript": "~2.2.1",
         "typings": "^2.1.0",
-        "zone.js": "^0.7.6"
+        "zone.js": "0.8.7"
     },
     "bin": {}
 }
