@@ -35,59 +35,14 @@
 ```json
 
 {
-    "name": "ng2-page-scroll",
-    "version": "4.0.0-beta.7",
-    "description": "Animated scrolling functionality written in pure angular2",
-    "scripts": {
-        "compile": "npm run lint:code && ngc -p tsconfig-build.json",
-        "compile:tsc": "npm run lint && tsc -p tsconfig.json --noUnusedLocals",
-        "bundle:create": "npm run bundle:clean && npm run rollup && npm run rollup:min",
-        "bundle:clean": "rimraf bundles",
-        "demo": "npm install && npm run demo:clean && npm run demo:start",
-        "demo:clean": "cd demo/ && npm uninstall ng2-page-scroll && npm install",
-        "demo:start": "cd demo/ && npm start",
-        "install:typings": "typings install",
-        "lint": "npm run lint:code && npm run lint:test",
-        "lint:code": "tslint ./src/**/*.ts -t verbose --exclude ./src/**/*.d.ts",
-        "lint:test": "tslint ./test/**/*.ts -t verbose --exclude ./test/**/*.d.ts",
-        "precompile": "npm run install:typings",
-        "prepublish": "npm run compile && npm run bundle:create",
-        "pretest": "npm run compile:tsc",
-        "rollup": "rollup -c rollup.conf.js",
-        "rollup:min": "rollup -c rollup-uglify.conf.js",
-        "test": "protractor protractor.conf.js",
-        "webdriver:init": "webdriver-manager update"
-    },
-    "main": "bundles/ng2-page-scroll.umd.js",
-    "module": "ng2-page-scroll.js",
-    "typings": "ng2-page-scroll.d.ts",
-    "keywords": [
-        "angular2",
-        "angularjs",
-        "page",
-        "scroll",
-        "pagescroll",
-        "animate",
-        "move",
-        "scrollto",
-        "anchor"
-    ],
-    "author": "Sebastian Fuss <sebastian.fuss@googlemail.com>",
-    "license": "MIT",
-    "repository": {
-        "type": "git",
-        "url": "git+ssh://git@github.com/Nolanus/ng2-page-scroll.git"
+    "author": {
+        "name": "Sebastian Fuss"
     },
     "bugs": {
         "url": "https://github.com/Nolanus/ng2-page-scroll/issues"
     },
-    "homepage": "https://github.com/Nolanus/ng2-page-scroll#readme",
-    "peerDependencies": {
-        "@angular/core": ">=2.4.0 <5.0.0",
-        "@angular/common": ">=2.4.0 <5.0.0",
-        "@angular/platform-browser": ">=2.4.0 <5.0.0",
-        "@angular/router": ">=3.2.0 <5.0.0"
-    },
+    "dependencies": {},
+    "description": "Animated scrolling functionality written in pure angular2",
     "devDependencies": {
         "@angular/common": "^4.0.2",
         "@angular/compiler": "^4.0.2",
@@ -110,6 +65,66 @@
         "typings": "^2.1.0",
         "zone.js": "0.8.7"
     },
+    "directories": {},
+    "dist": {
+        "shasum": "d49a14c652e5ada2f6546e06b38a288326922472",
+        "tarball": "https://registry.npmjs.org/ng2-page-scroll/-/ng2-page-scroll-4.0.0-beta.7.tgz"
+    },
+    "gitHead": "643faf3bf984b7dd0a1689a40631ae551dcaddb7",
+    "homepage": "https://github.com/Nolanus/ng2-page-scroll#readme",
+    "keywords": [
+        "angular2",
+        "angularjs",
+        "page",
+        "scroll",
+        "pagescroll",
+        "animate",
+        "move",
+        "scrollto",
+        "anchor"
+    ],
+    "license": "MIT",
+    "main": "bundles/ng2-page-scroll.umd.js",
+    "maintainers": [
+        {
+            "name": "nolanus"
+        }
+    ],
+    "module": "ng2-page-scroll.js",
+    "name": "ng2-page-scroll",
+    "optionalDependencies": {},
+    "peerDependencies": {
+        "@angular/core": ">=2.4.0 <5.0.0",
+        "@angular/common": ">=2.4.0 <5.0.0",
+        "@angular/platform-browser": ">=2.4.0 <5.0.0",
+        "@angular/router": ">=3.2.0 <5.0.0"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+ssh://git@github.com/Nolanus/ng2-page-scroll.git"
+    },
+    "scripts": {
+        "bundle:clean": "rimraf bundles",
+        "bundle:create": "npm run bundle:clean && npm run rollup && npm run rollup:min",
+        "compile": "npm run lint:code && ngc -p tsconfig-build.json",
+        "compile:tsc": "npm run lint && tsc -p tsconfig.json --noUnusedLocals",
+        "demo": "npm install && npm run demo:clean && npm run demo:start",
+        "demo:clean": "cd demo/ && npm uninstall ng2-page-scroll && npm install",
+        "demo:start": "cd demo/ && npm start",
+        "install:typings": "typings install",
+        "lint": "npm run lint:code && npm run lint:test",
+        "lint:code": "tslint ./src/**/*.ts -t verbose --exclude ./src/**/*.d.ts",
+        "lint:test": "tslint ./test/**/*.ts -t verbose --exclude ./test/**/*.d.ts",
+        "precompile": "npm run install:typings",
+        "prepublish": "npm run compile && npm run bundle:create",
+        "pretest": "npm run compile:tsc",
+        "rollup": "rollup -c rollup.conf.js",
+        "rollup:min": "rollup -c rollup-uglify.conf.js",
+        "test": "protractor protractor.conf.js",
+        "webdriver:init": "webdriver-manager update"
+    },
+    "typings": "ng2-page-scroll.d.ts",
+    "version": "4.0.0-beta.7",
     "bin": {}
 }
 ```
